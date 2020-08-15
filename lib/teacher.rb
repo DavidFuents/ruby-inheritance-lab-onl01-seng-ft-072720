@@ -6,5 +6,7 @@ class Teacher < User
   def teach 
   string = KNOWLEDGE.sample(1)
   puts string
+  binding.pry 
+  true
   end
 end
